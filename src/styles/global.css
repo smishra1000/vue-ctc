@@ -1,0 +1,26 @@
+html,
+body {
+  font-weight: 500;
+  font-size: 15px;
+}
+.v-toolbar--fixed {
+  position: fixed;
+  z-index: 9 !important;
+}
+.v-toolbar{
+  background-color: #424242 !important;
+  padding-left: 0px !important;
+}
+.v-navigation-drawer{
+  background-color: #424242 !important;
+  color:#fff !important
+}
+.v-navigation-drawer>.v-list{
+  color:#fff;
+}
+.v-list__tile__action > .theme--light.v-icon{
+  color:#fff !important;
+}
+.v-btn--active:before{
+  background-color: #424242 !important;
+}
